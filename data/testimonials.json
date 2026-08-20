@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": "t1",
+      "quote": {
+        "en": "[Add a real client testimonial here — what they said about working with you.]",
+        "ar": "[حط هنا رأي حقيقي لعميل — اللي قاله عن تجربته مع الشركة.]",
+        "ru": "[Добавьте здесь реальный отзыв клиента — что он сказал о работе с вами.]"
+      },
+      "name": "Client name",
+      "detail": {
+        "en": "Buyer, El Gouna",
+        "ar": "مشتري، الجونة",
+        "ru": "Покупатель, Эль-Гуна"
+      }
+    },
+    {
+      "id": "t2",
+      "quote": {
+        "en": "[Add a real client testimonial here — what they said about working with you.]",
+        "ar": "[حط هنا رأي حقيقي لعميل — اللي قاله عن تجربته مع الشركة.]",
+        "ru": "[Добавьте здесь реальный отзыв клиента — что он сказал о работе с вами.]"
+      },
+      "name": "Client name",
+      "detail": {
+        "en": "Landlord, Sahl Hasheesh",
+        "ar": "مالك عقار، سهل حشيش",
+        "ru": "Владелец, Сахль-Хашиш"
+      }
+    },
+    {
+      "id": "t3",
+      "quote": {
+        "en": "[Add a real client testimonial here — what they said about working with you.]",
+        "ar": "[حط هنا رأي حقيقي لعميل — اللي قاله عن تجربته مع الشركة.]",
+        "ru": "[Добавьте здесь реальный отзыв клиента — что он сказал о работе с вами.]"
+      },
+      "name": "Client name",
+      "detail": {
+        "en": "Investor, Makadi Bay",
+        "ar": "مستثمر، مكادي باي",
+        "ru": "Инвестор, Макади-Бей"
+      }
+    }
+  ]
+}

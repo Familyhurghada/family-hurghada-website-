@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "id": "p1",
+      "type": "sale",
+      "title": {
+        "en": "Apartment — El Kawthar",
+        "ar": "شقة — الكوثر",
+        "ru": "Квартира — Эль-Каусар"
+      },
+      "details": {
+        "en": "2 bedrooms · Central location · Close to shops & schools",
+        "ar": "غرفتين نوم · موقع مركزي · قريبة من المحلات والمدارس",
+        "ru": "2 спальни · Центральное расположение · Рядом магазины и школы"
+      },
+      "price": "",
+      "image": "",
+      "sample": true
+    },
+    {
+      "id": "p2",
+      "type": "sale",
+      "title": {
+        "en": "Villa — Sahl Hasheesh",
+        "ar": "فيلا — سهل حشيش",
+        "ru": "Вилла — Сахль-Хашиш"
+      },
+      "details": {
+        "en": "4 bedrooms · Private pool · Gated resort community",
+        "ar": "4 غرف نوم · حمام سباحة خاص · كمبوند مغلق",
+        "ru": "4 спальни · Собственный бассейн · Закрытый курортный посёлок"
+      },
+      "price": "",
+      "image": "",
+      "sample": true
+    },
+    {
+      "id": "p3",
+      "type": "rent",
+      "title": {
+        "en": "Studio — Sakkala",
+        "ar": "استوديو — سقالة",
+        "ru": "Студия — Саккала"
+      },
+      "details": {
+        "en": "Furnished · Sea-view balcony · Long or short term",
+        "ar": "مفروش · بلكونة بإطلالة بحرية · إيجار طويل أو قصير",
+        "ru": "С мебелью · Балкон с видом на море · Длительная или краткосрочная аренда"
+      },
+      "price": "",
+      "image": "",
+      "sample": true
+    },
+    {
+      "id": "p4",
+      "type": "rent",
+      "title": {
+        "en": "Apartment — Makadi Bay",
+        "ar": "شقة — مكادي باي",
+        "ru": "Квартира — Макади-Бей"
+      },
+      "details": {
+        "en": "1 bedroom · Resort-style compound · Beachfront access",
+        "ar": "غرفة نوم واحدة · كمبوند بطراز منتجعي · وصول مباشر للشاطئ",
+        "ru": "1 спальня · Курортный комплекс · Прямой доступ к пляжу"
+      },
+      "price": "",
+      "image": "",
+      "sample": true
+    }
+  ]
+}

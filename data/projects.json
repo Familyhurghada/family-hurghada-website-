@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "id": "np1",
+      "area": {
+        "en": "Makadi Bay",
+        "ar": "مكادي باي",
+        "ru": "Макади-Бей"
+      },
+      "title": {
+        "en": "New Compound — Makadi Bay",
+        "ar": "كمبوند جديد — مكادي باي",
+        "ru": "Новый комплекс — Макади-Бей"
+      },
+      "details": {
+        "en": "Resort-style units, launch details to be announced.",
+        "ar": "وحدات بطراز منتجعي، تفاصيل الإطلاق هتتعلن قريبًا.",
+        "ru": "Курортные апартаменты, детали запуска будут объявлены позже."
+      },
+      "image": ""
+    },
+    {
+      "id": "np2",
+      "area": {
+        "en": "Sahl Hasheesh",
+        "ar": "سهل حشيش",
+        "ru": "Сахль-Хашиш"
+      },
+      "title": {
+        "en": "New Residences — Sahl Hasheesh",
+        "ar": "سكن جديد — سهل حشيش",
+        "ru": "Новая резиденция — Сахль-Хашиш"
+      },
+      "details": {
+        "en": "Gated community living, launch details to be announced.",
+        "ar": "حياة في كمبوند مغلق، تفاصيل الإطلاق هتتعلن قريبًا.",
+        "ru": "Жизнь в закрытом посёлке, детали запуска будут объявлены позже."
+      },
+      "image": ""
+    },
+    {
+      "id": "np3",
+      "area": {
+        "en": "El Gouna",
+        "ar": "الجونة",
+        "ru": "Эль-Гуна"
+      },
+      "title": {
+        "en": "New Lagoon Villas — El Gouna",
+        "ar": "فلل بحيرة جديدة — الجونة",
+        "ru": "Новые виллы на лагуне — Эль-Гуна"
+      },
+      "details": {
+        "en": "Waterfront villas, launch details to be announced.",
+        "ar": "فلل على الواجهة المائية، تفاصيل الإطلاق هتتعلن قريبًا.",
+        "ru": "Виллы на набережной, детали запуска будут объявлены позже."
+      },
+      "image": ""
+    }
+  ]
+}

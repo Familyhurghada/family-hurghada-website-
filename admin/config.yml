@@ -1,0 +1,104 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+collections:
+  - name: "properties"
+    label: "🏠 Property Listings"
+    files:
+      - file: "data/properties.json"
+        label: "Properties"
+        name: "properties"
+        fields:
+          - label: "Listings"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title.en}}"
+            fields:
+              - { label: "ID (unique, no spaces)", name: "id", widget: "string" }
+              - { label: "Listing Type", name: "type", widget: "select", options: ["sale", "rent"] }
+              - label: "Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+                  - { label: "Russian", name: "ru", widget: "string" }
+              - label: "Details"
+                name: "details"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+                  - { label: "Russian", name: "ru", widget: "string" }
+              - { label: "Price (optional)", name: "price", widget: "string", required: false }
+              - { label: "Photo (leave empty to show placeholder icon)", name: "image", widget: "image", required: false }
+              - { label: "Still a sample placeholder?", name: "sample", widget: "boolean", default: true }
+
+  - name: "projects"
+    label: "🏗️ New Projects"
+    files:
+      - file: "data/projects.json"
+        label: "New Projects"
+        name: "projects"
+        fields:
+          - label: "Projects"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title.en}}"
+            fields:
+              - { label: "ID (unique, no spaces)", name: "id", widget: "string" }
+              - label: "Area"
+                name: "area"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+                  - { label: "Russian", name: "ru", widget: "string" }
+              - label: "Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+                  - { label: "Russian", name: "ru", widget: "string" }
+              - label: "Details"
+                name: "details"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+                  - { label: "Russian", name: "ru", widget: "string" }
+              - { label: "Photo (optional)", name: "image", widget: "image", required: false }
+
+  - name: "testimonials"
+    label: "💬 Testimonials"
+    files:
+      - file: "data/testimonials.json"
+        label: "Testimonials"
+        name: "testimonials"
+        fields:
+          - label: "Testimonials"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "ID (unique, no spaces)", name: "id", widget: "string" }
+              - label: "Quote"
+                name: "quote"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "text" }
+                  - { label: "Arabic", name: "ar", widget: "text" }
+                  - { label: "Russian", name: "ru", widget: "text" }
+              - { label: "Client Name", name: "name", widget: "string" }
+              - label: "Detail (e.g. 'Buyer, El Gouna')"
+                name: "detail"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string" }
+                  - { label: "Russian", name: "ru", widget: "string" }
